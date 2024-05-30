@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tema_Dame.Views.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema_Dame.Views"
+        mc:Ignorable="d"
+            Title="About" Height="500" Width="800">
+    <Grid Background="black">
+        <StackPanel Margin="10,0,0,2">
+            <Label Foreground="Cyan" Content="Creator:" FontSize="30" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Foreground="#FF0000" Content="Pintea Andrei-Cristian" FontSize="22" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Foreground="Cyan" Content="Email:" FontSize="30" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Foreground="#FF0000" Content="andrei.pintea@student.unitbv.ro" FontSize="22" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Foreground="Cyan" Content="Grupa:" FontSize="30" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Foreground="#FF0000" Content="10LF223" FontSize="22" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Foreground="Cyan" Content="Despre joc:" FontSize="30" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBlock Foreground="#FF0000" Text="Dame este un joc de strategie pentru doua persoane.Fiecare jucator are cate 12 piese situate pe o tabla de 8 pe 8 asemanatoare cu cea de sah. Piesele de pe tabla de sah se pot deplasa pe diagonale cu scopul de a captura toate piese adversarului" TextWrapping="Wrap" TextAlignment="Center" FontSize="22" FontFamily="Colibri" Margin="0, 0, 0 ,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
